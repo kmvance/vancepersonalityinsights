@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: vance personality insights
+  host: vance-personality-insights
+  disk_quota: 1024M
+  services:
+  - vance personality insights-personality_insights
